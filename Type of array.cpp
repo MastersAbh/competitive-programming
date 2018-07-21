@@ -1,5 +1,5 @@
 /*
-	Problem Statement : https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0/?track=SP-Arrays%20and%20Searching
+	Problem Statement : https://practice.geeksforgeeks.org/problems/type-of-array/0/?track=SP-Arrays%20and%20Searching
 	Asked in : Amazon
 	
 	Code By:
