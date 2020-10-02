@@ -7,14 +7,11 @@ struct node {
     node* right; 
 }; 
 
-void printLeaves(struct node* root) 
+void printLeaves(node* root) 
 { 
     if (root == NULL) 
         return; 
 
-     if(root == NULL){
-        return;
-    }
     if(root->left == NULL && root->right == NULL){
         cout<<root->data<<" ";
     } 
@@ -22,7 +19,7 @@ void printLeaves(struct node* root)
     printLeaves(root->right);
 } 
 
-void printBoundaryLeft(struct node* root) 
+void printBoundaryLeft(node* root) 
 { 
     if (root == NULL) 
         return; 
@@ -37,7 +34,7 @@ void printBoundaryLeft(struct node* root)
     } 
 } 
 
-void printBoundaryRight(struct node* root) 
+void printBoundaryRight(node* root) 
 { 
     if (root == NULL) 
         return; 
@@ -52,7 +49,7 @@ void printBoundaryRight(struct node* root)
     }  
 } 
 
-void printBoundary(struct node* root) 
+void printBoundary(node* root) 
 { 
     if (root == NULL) 
         return; 
