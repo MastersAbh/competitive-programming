@@ -73,7 +73,7 @@ int main(){
 
     cout<<ladders_topdowm(n,k,dp)<<endl;
     cout<<ladders_bottomup(n,k)<<endl;
-    cout<<ladder_Bottom_UP_optimised(n,k);
-
+    cout<<ladder_Bottom_UP_optimised(n,k)<<endl;
+    
     return 0;
 }
